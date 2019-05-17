@@ -1,8 +1,23 @@
+/* Core Styles**/
+.about-banner{
+  background: url('../images/jhenephoto2.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font:15px/1.5 Tahoma, sans-serif;
   padding:0;
   margin: 0;
   background-color: #ffffff;
+}
+
+img {
+  display: block;
+  width: 100%
+  height: auto;
 }
 
 /* Global **/
@@ -54,3 +69,12 @@ header a:hover{
   color:#cccccc;
   font-weight:bold;
   }
+
+nav{
+  width: 100%;
+  height: auto;
+  display: none;
+  position: relative;
+  z-index: 10;
+  background-color: rgba(33, 33, 33, 0.2);
+}

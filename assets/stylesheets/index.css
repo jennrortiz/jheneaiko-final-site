@@ -19,7 +19,7 @@ ul{
 
 /* Header **/
 header{
-  background: rgba(0, 0, 0, 0.68);
+  background: rgba(0, 0, 0, 0.50);
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
@@ -46,7 +46,7 @@ header #branding h1{
 }
 
 header nav{
-  float:mid;
+  float:middle;
   margin-top:10px;
 }
 
