@@ -27,18 +27,18 @@ ul{
 
 /* Header **/
 header{
-  width: 100%;
+  width: auto;
   height: 55px;
   padding: 0 30px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.50);;
+  background-color: rgba(0, 0, 0, 0.60);;
   -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
-  z-index: 5;
+  z-index: 10;
 }
 
 header a{
