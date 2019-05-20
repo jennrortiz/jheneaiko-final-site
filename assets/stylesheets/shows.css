@@ -1,5 +1,5 @@
 #showcase{
-  min-height:600px;
+  min-height:500px;
   background:url('../images/jhenephoto2.jpg') no-repeat  0 -0.20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,9 +7,15 @@
   background-size: cover;
 }
 
+.container {
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
 body {
   font:15px/1.5 Tahoma, sans-serif;
-  padding:0;
+  padding: 0;
   margin: 0;
   background-color: #ffffff;
 }
@@ -69,7 +75,7 @@ header a:hover{
     text-align: left;
   }
 
-.container {
+.container{
   position: relative;
   text-align: left;
   color: black;

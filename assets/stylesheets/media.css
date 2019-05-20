@@ -1,35 +1,76 @@
-body {
-  background: url('../images/jhenephoto1.jpg') no-repeat;
+#showcase{
+  min-height:500px;
+  background:url('../images/jhenephoto1.jpg') no-repeat  0 -0.20px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: Tahoma;
-  color: white;
 }
 
-ul {
-  margin: 0px;
-  padding: 10px;
-  list-style: none;
+.container {
+  width:80%;
+  margin:auto;
+  overflow:hidden;
 }
 
-ul li{
-  float: left;
+body {
+  font:15px/1.5 Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+  width: auto;
+  height: 55px;
+  padding: 0 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.60);;
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+  z-index: 10;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:16px;
+}
+
+header li{
+  float:left;
   display:inline;
-  width: 200px;
-  height: 40px;
-  background-color: black;
-  opacity: 0.8;
-  line-height: 40px;
-  text-align : center;
-  font-size: 20px;
+  padding: 0 20px 0 20px;
 }
 
-ul li a{
-  text-decoration: none;
-  color: white;
-  display: block;
+header #branding{
+  float:left;
 }
 
-ul li a:hover {
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:middle;
+  margin-top:15px;
+}
+
+header a:hover{
   color:#cccccc;
   font-weight:bold;
+  }
+
+  th {
+    text-align: left;
   }
