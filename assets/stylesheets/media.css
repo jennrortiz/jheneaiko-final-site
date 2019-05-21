@@ -1,6 +1,6 @@
 #showcase{
   min-height:500px;
-  background:url('../images/jhenephoto1.jpg') no-repeat  0 -0.20px;
+  background:url('../images/jhenephoto6.jpg') no-repeat  0 -0.20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,3 +74,20 @@ header a:hover{
   th {
     text-align: left;
   }
+
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+  }
+
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:auto;
+    padding:10px;
+  }
+
+.video {
+  float:center;
+  padding:0 50px 0 130px;
+}

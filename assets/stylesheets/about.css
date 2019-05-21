@@ -1,15 +1,23 @@
-body {
-  font:15px/1.5 Tahoma, sans-serif;
-  padding:0;
-  margin: 0;
-  background-color: #ffffff;
+#showcase{
+  min-height:500px;
+  background:url('../images/jhenephoto8.jpg') no-repeat  0 -150px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* Global **/
-.container{
+.container {
   width:80%;
   margin:auto;
   overflow:hidden;
+}
+
+body {
+  font:15px/1.5 Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
 }
 
 ul{
@@ -19,13 +27,18 @@ ul{
 
 /* Header **/
 header{
-  position:absolute;
+  width: auto;
+  height: 55px;
+  padding: 0 30px;
+  position: absolute;
+  top: 0;
   left: 0;
-  right:0;
-  background: rgba(0, 0, 0, 0.50);
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.60);;
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+  z-index: 10;
 }
 
 header a{
@@ -49,8 +62,8 @@ header #branding h1{
 }
 
 header nav{
-  float:mid;
-  margin-top:10px;
+  float:middle;
+  margin-top:15px;
 }
 
 header a:hover{
@@ -58,8 +71,6 @@ header a:hover{
   font-weight:bold;
   }
 
-/* Main-col */
-article#main-col{
-  float:left;
-  width: 80%
+th {
+  text-align: left;
 }

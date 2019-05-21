@@ -75,13 +75,13 @@ header a:hover{
     text-align: left;
   }
 
-.container{
+.container-a {
   position: relative;
   text-align: left;
   color: black;
 }
 
-.centered {
+.centered-a {
   position: absolute;
   top: 50%;
   left: 50%;
