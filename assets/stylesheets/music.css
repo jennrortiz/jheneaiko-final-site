@@ -72,43 +72,18 @@ header a:hover{
   font-weight:bold;
   }
 
-  /* Section D / Boxes */
+.container-a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}
 
-  #section-a .box {
-    padding: 2em;
-    color: black;
-  }
-
-  #section-a .box:first-child {
-    background: #01d86f;
-  }
-
-  #section-b .box {
-    padding: 2em;
-    background: #64a0a1;
-  }
-
-  #section-b .box:first-child {
-    padding: 2em;
-    color: black;
-    background: white;
-  }
-
-  #section-c .box {
-    padding: 2em;
-    color: black;
-  }
-
-  #section-c .box:first-child {
-    background: #8f9ea5;
-  }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-  }
-
-  .box,
-  #main-footer div {
-    grid-column: span 2;
-  }
+.container-b{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 10px;
+}

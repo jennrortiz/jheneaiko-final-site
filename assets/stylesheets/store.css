@@ -85,14 +85,25 @@ img {
   display: block;
 }
 
+.container-a {
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+  padding: 20px;
+}
+
+img {
+    box-shadow: 5px 5px 5px #999;
+  }
+
 .filterDiv {
   float: left;
-  background-color: #2196F3;
+  background-color: #ffffff;
   color: #ffffff;
   width: 300px;
   line-height: 500px;
   text-align: center;
-  margin: 2px;
+  margin: 8px;
   display: none; /* Hidden by default */
 }
 
