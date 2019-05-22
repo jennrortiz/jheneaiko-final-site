@@ -94,8 +94,13 @@ img {
 
 img {
     box-shadow: 5px 5px 5px #999;
-  }
-  
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+
 .filterDiv {
   float: left;
   background-color: #ffffff;
