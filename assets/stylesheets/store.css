@@ -1,6 +1,6 @@
 #showcase{
   min-height:500px;
-  background:url('../images/jhenephoto4.jpg') no-repeat  0 -200px;
+  background:url('../images/jhenephoto12.jpg') no-repeat  0 -500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -99,7 +99,6 @@ img {
 .not-allowed {
   cursor: not-allowed;
 }
-
 
 .filterDiv {
   float: left;
